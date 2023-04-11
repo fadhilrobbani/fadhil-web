@@ -7,7 +7,7 @@ type Props = {
   children: React.ReactNode;
 };
 
-const Layout = ({ title, children }: Props) => {
+const BlogLayout = ({ title, children }: Props) => {
   return (
     <div>
       <Head>
@@ -19,4 +19,4 @@ const Layout = ({ title, children }: Props) => {
   );
 };
 
-export default Layout;
+export default BlogLayout;
